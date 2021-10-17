@@ -61,3 +61,12 @@ h2 {
     text-align:  center;
     font-size: 25px;
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
