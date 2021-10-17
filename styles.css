@@ -1,0 +1,63 @@
+body {
+  font-family: arial;
+}
+h1 {
+  text-align: center;
+}
+p {
+  color: gray;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#movies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #3387EE;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 1200px) {
+  #movies {
+        grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #movies {
+        grid-template-columns: auto;
+  }
+}
+#sMovie {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  input[type=text] {
+    padding:10px;
+    margin:10px 0;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+      border-radius:10px;
+      height: 25px;
+      font-size: 25px;
+  }
+  #movieSubmit {
+    appearance:none;
+    padding:10px;
+    border:10px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    border-radius:5px;
+    width:100px;
+    font-family: monospace
+  }
+  #movieSubmit:hover {
+    background-color: #121212;
+    cursor: pointer;
+  }
+  #userform {
+    text-align:  center;
+    font-size: 25px;
+  }
